@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Fanta ka website</title>
+</head>
+
+<body>
+    <div id="main" class="bg-ora   w-full h-[100vh] border border-white bg-[#ff4500]">
+        <!-- Navbar -->
+        <nav class="fixed flex items-center justify-between w-full h-[10vh] px-[10vw] z-[99]">
+            <a href="/" class="text-[1vw] text-white no-underline">Logo</a>
+            <div class="cntr-nav flex gap-[3vw]">
+                <a href="#" class="text-[1vw] text-white no-underline">Home</a>
+                <a href="#" class="text-[1vw] text-white no-underline">Products</a>
+                <a href="#" class="text-[1vw] text-white no-underline">Shop</a>
+                <a href="#" class="text-[1vw] text-white no-underline">Contact</a>
+            </div>
+            <i class="ri-menu-fill text-[1.5vw] text-white"></i>
+        </nav>
+
+        <div class="one     flex items-center justify-center w-full h-[100vh] bg-gradient-to-br from-[#ffa600] to-[#ff5e00] relative">
+            <h1 class="text-[25vw] font-[Product Sans B] text-white">FANTA</h1>
+            <img id="orange-cut" src="Assets/orange2.png" alt="">
+            <img id="fanta" src="Assets/fanta.png" alt="">
+            <img id="orange" src="Assets/orange.webp" alt="">
+            <img id="leaf" src="Assets/leaf.webp" alt="">
+            <img id="leaf2" src="Assets/leaf2.png" alt="">
+            <img id="leaf3" src="Assets/coconoutleaf.png" alt="">
+        </div>
+        <div class="two">
+            <div class="lft-two">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#e04428"
+                        d="M41.5,-59.5C49.8,-51.1,49.7,-33.6,50.7,-19.2C51.7,-4.7,53.8,6.7,52.4,18.9C51.1,31.1,46.3,44.1,36.9,52.9C27.6,61.8,13.8,66.5,-2.5,70C-18.8,73.4,-37.7,75.6,-52.5,68.5C-67.3,61.5,-78.2,45.2,-84.5,27.1C-90.9,9,-92.7,-10.8,-80.5,-19.3C-68.3,-27.8,-42.1,-24.8,-26.3,-30.8C-10.6,-36.8,-5.3,-51.7,5.7,-59.5C16.6,-67.3,33.2,-68,41.5,-59.5Z"
+                        transform="translate(100 100)" />
+                </svg>
+            </div>
+            <div class="rght-two">
+                <h1>Flavour Updated</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, excepturi sed, itaque placeat id
+                    natus soluta veniam obcaecati qui a laborum laboriosam dolorem illum labore sit, voluptates commodi
+                    neque dolores tempore temporibus deleniti? Nobis, ratione hic error quis cum neque nulla laudantium
+                    nostrum sit nihil dolorum quisquam enim quaerat, eaque ex sequi, harum totam quia non! Labore,
+                    neque! Amet voluptatem illo similique recusandae! Ex quaerat quibusdam asperiores, ducimus tempore
+                    magni labore. Tenetur voluptas, quos ex repellendus provident mollitia laboriosam adipisci alias a
+                    impedit, cum accusamus rerum delectus eaque facilis veniam quia laborum incidunt ea assumenda! Eos
+                    magni aspernatur quod distinctio.</p>
+            </div>
+        </div>
+        <div class="three">
+            <div class="card">
+                <img class="lemon lemon1" src="Assets/lemon.webp" alt="">
+                <img id="cocacola" src="Assets/cocacola.png" alt="">
+                <h1>CocaCola</h1>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <h1>Fanta</h1>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img class="lemon lemon2" src="Assets/lemon.webp" alt="">
+                <img id="pepsi" src="Assets/pepsi.png" alt="">
+                <h1>Pepsi</h1>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+        
+        <div
+            class="flex items-center justify-center w-full h-[100vh] bg-gradient-to-br from-[#ffa600] to-[#ff5e00] relative">
+            <h1 class="text-[25vw] font-[Product Sans B] text-white">FANTA</h1>
+            <img id="orange-cut" src="Assets/orange2.png"
+                class="absolute top-[10%] left-[32%] w-[15%] z-[1] transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+                alt="">
+            <img id="fanta" src="Assets/fanta.png"
+                class="absolute w-[40%] z-[2] transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]" alt="">
+            <img id="orange" src="Assets/orange.webp"
+                class="absolute w-[20%] z-[3] top-[55%] right-[30%] transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+                alt="">
+            <img id="leaf" src="Assets/leaf.webp"
+                class="absolute top-[10%] left-0 w-[18%] rotate-[60deg] transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+                alt="">
+            <img id="leaf2" src="Assets/leaf2.png"
+                class="absolute top-[70%] left-[80%] w-[12%] -rotate-90 transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+                alt="">
+            <img id="leaf3" src="Assets/coconoutleaf.png" class="absolute w-[20%] top-[10%] right-0" alt="">
+        </div>
+
+        
+        <div class="flex w-full h-[100vh] bg-[#4d231c]">
+            <div class="flex flex-col items-start justify-center gap-[5vh] w-1/2 h-full">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+                    class="mt-[50vh] w-[90%] transform rotate-x-[50deg]">
+                    <path fill="#e04428"
+                        d="M41.5,-59.5C49.8,-51.1,49.7,-33.6,50.7,-19.2C51.7,-4.7,53.8,6.7,52.4,18.9C51.1,31.1,46.3,44.1,36.9,52.9C27.6,61.8,13.8,66.5,-2.5,70C-18.8,73.4,-37.7,75.6,-52.5,68.5C-67.3,61.5,-78.2,45.2,-84.5,27.1C-90.9,9,-92.7,-10.8,-80.5,-19.3C-68.3,-27.8,-42.1,-24.8,-26.3,-30.8C-10.6,-36.8,-5.3,-51.7,5.7,-59.5C16.6,-67.3,33.2,-68,41.5,-59.5Z"
+                        transform="translate(100 100)" />
+                </svg>
+            </div>
+            <div class="flex flex-col items-start justify-center gap-[5vh] w-1/2 h-full">
+                <h1 class="text-white text-[5vw]">Flavour Updated</h1>
+                <p class="text-white text-[1vw] w-[80%]">Lorem ipsum dolor sit amet...</p>
+            </div>
+        </div>
+
+       
+        <div
+            class="flex items-center justify-center gap-[5vw] w-full h-[100vh] bg-gradient-to-br from-[#ffa600] to-[#ff5e00]">
+            <div
+                class="relative flex flex-col items-center justify-center gap-[2vh] w-[25vw] h-[70vh] mt-[10vh] rounded-[20px] bg-white">
+                <img class="absolute top-[-30%] left-1/2 w-[25vw] -translate-x-1/2 transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+                    src="Assets/lemon.webp" alt="">
+                <img id="cocacola" src="Assets/cocacola.png"
+                    class="absolute top-[-15%] left-1/2 w-[60%] -translate-x-1/2 transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+                    alt="">
+                <h1 class="mt-[40vh] text-[3vw]">CocaCola</h1>
+                <button class="text-[1vw] rounded-full border-none text-white bg-[#ff9500] px-[2vw] py-[1vw]">Buy
+                    Now</button>
+            </div>
+            <div
+                class="relative flex flex-col items-center justify-center gap-[2vh] w-[25vw] h-[70vh] mt-[10vh] rounded-[20px] bg-white">
+                <h1 class="mt-[40vh] text-[3vw]">Fanta</h1>
+                <button class="text-[1vw] rounded-full border-none text-white bg-[#ff9500] px-[2vw] py-[1vw]">Buy
+                    Now</button>
+            </div>
+            <div
+                class="relative flex flex-col items-center justify-center gap-[2vh] w-[25vw] h-[70vh] mt-[10vh] rounded-[20px] bg-white">
+                <img class="absolute top-[-30%] left-1/2 w-[25vw] -translate-x-1/2 transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+                    src="Assets/lemon.webp" alt="">
+                <img id="pepsi" src="Assets/pepsi.png"
+                    class="absolute top-[-15%] left-1/2 w-[85%] -translate-x-1/2 transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+                    alt="">
+                <h1 class="mt-[40vh] text-[3vw]">Pepsi</h1>
+                <button class="text-[1vw] rounded-full border-none text-white bg-[#ff9500] px-[2vw] py-[1vw]">Buy
+                    Now</button>
+            </div>
+        </div>
+        </div>
+    </section> -->
